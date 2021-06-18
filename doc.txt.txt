@@ -1,0 +1,23 @@
+
+<div class="selenium123">
+
+
+xpath(//div[@class="seleminum']
+)
+//div(Starts-with('Selenium''123
+
+
+Webdriver driver = new ChromeDriver();
+
+String url ="https://www.facebook.com";
+driver.get(url);
+
+driver.findelement(By.id("username")).sendKeys("Spess123@gmail.com");
+driver.findelement(By.id("Password")).sendKeys("Spes@1999");
+
+driver.findelement(By.id("Login")).click();
+
+String title ="Homepage"
+String loginpage= driver.getTitle();
+assertEquals(title ,loginpage);
+link 1
